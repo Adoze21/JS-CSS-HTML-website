@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <title>FUN - языковой центр</title>
+</head>
+<body>
+    <!--Header-->
+    <section id="header">
+      <div class="header container color-change">
+        <div class="nav-bar">
+          <div class="brand">
+            <div><a href="#"><img src="./img/logopencil.png" alt=""></a></div>
+            <div>
+              <div class="headertitle">
+                <h1>FUN</h1>
+                <p>Языковой центр</p></div>
+              </div>
+          </div>
+          <div class="nav-list">
+            <div class="hamburger"><div class="bar"></div></div>
+            <ul class="hamburger-close color-change">
+              <li><a href="#services" data-after="Форматы">Форматы обучения</a></li>
+              <li><a href="#slides" data-after="Центр">Наш центр</a></li>
+              <li><a href="#languages" data-after="Языки">Языки</a></li>
+              <li><a href="#reviews" data-after="Отзывы">Отзывы</a></li>
+              <li><a href="#map" data-after="Контакты">Контакты</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End of Header-->
+    <!--Main Section-->
+    <div class="main container">
+        <div class="sidebar">
+          <div style="background: linear-gradient(229.99deg, #E24E42 -8%, #E24E42 138%);">
+            <div>
+                <h1>Доступные цены<span></span></h1>
+                <a href="#map" type="button" class="cta orange">Записаться</a>
+            </div>
+          </div>
+          <div style="background: linear-gradient(215.32deg, #E9B000 -1%, #E9B000 124%);">
+            <div>
+                <h1>Современные аудитории<span></span></h1>
+                <a href="#map" type="button" class="cta yellow">Записаться</a>
+            </div>
+          </div>
+          <div style="background: linear-gradient(221.87deg, #E86E80 -1%, #E86E80 128%);">
+            <div>
+                <h1 class="professional-teachers">Профессиональные преподаватели <span></span></h1>
+                <a href="#map" type="button" class="cta pink">Записаться</a>
+            </div>
+          </div>
+          <div style="background: linear-gradient(220.16deg, #008F95 -8%, #008F95 138%);">
+            <div>
+                <h1>Иностранные языки<br><span>в Подольске</span></h1>
+                <a href="#map" type="button" class="cta blue">Записаться</a>
+            </div>
+          </div>
+        </div>
+        <div class="main-slide">
+          <div
+            style="
+              background-image: url('./img/letters.jpg');
+            "
+          ></div>
+          <div
+            style="
+              background-image: url('./img/group.jpg');
+            "
+          ></div>
+          <div
+            style="
+              background-image: url('./img/library.jpg');
+            "
+          ></div>
+          <div
+            style="
+              background-image: url('./img/lecture.jpg');
+            "
+          ></div>
+        </div>
+        <div class="controls">
+          <button class="up-button">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+          <button class="down-button">
+            <i class="fas fa-arrow-down"></i>
+          </button>
+        </div>
+      </div>
+    <!--End of Main Section-->
+    <!--About us Section-->
+    <section id="about" class="container">
+      <div class="about-box">
+        <div class="about color-change">
+          <h1>Языки — это весело!</h1>
+        </div>
+        <div class="about-text">
+          <p> Мы не понаслышке знаем, что изучение иностранных языков требует большого труда и терпения. Поэтому мы стараемся скрасить этот процесс увлекательными заданиями, а также приятной и дружелюбной атмосферой.
+            Обучение в языковом центре <span class="about-span text-change">FUN</span> — это не только продуктивно, но и интересно! </p>
+        </div>
+      </div>
+    </section>
+    <!--End of About us Section-->
+    <!--Service section-->
+    <section id="services">
+        <div class="services container">
+            <div class="service-top">
+                <h1 class="section-title">Форматы Обучения</h1>
+                <p>Стоимость занятий зависит от возраста и формата. Выберите подходящий Вам формат и узнайте стоимость изучения любого языка в нашем центре.</p>
+            </div>
+            <div class="service-bottom">
+                <div class="service-item hover-change">
+                    <button class="pop-up-button" data-pop-up-target="#popUp">Дошкольники</button>             
+                </div>
+                <div class="pop-up" id="popUp">
+                  <div class="pop-up-header color-change">
+                    <div class="pop-up-title"><h2>Дошкольники от 4 лет<br><p>(Занятие 45 мин)</p></h2></div>
+                    <button data-close-button class="close-button">&times;</button>
+                  </div>
+                  <div class="pop-up-body color-change">
+                    <div class="pop-up-text">
+                      <div class="format-option"><h2>Абонемент на 8 занятий (группа)</h2></div>
+                      <div class="price"><h2>4800₽</h2></div>
+                      <div class="format-option"><h2>Абонемент на 9 занятий (группа)</h2></div>
+                      <div class="price"><h2>5400₽</h2></div>
+                      <div class="format-option"><h2>Индивидуальное занятие</h2></div>
+                      <div class="price"><h2>1000₽</h2></div>
+                    </div>
+                    <a href="#map" type="button" class="pop-up-close cta text-change">Выбрать</a>
+                  </div>
+                </div>
+                <div id="overlay"></div>
+                <div class="service-item hover-change">
+                    <button class="pop-up-button" data-modal-target="#modal">Школьники</button>             
+                </div>
+                <div class="modal" id="modal">
+                  <div class="modal-header color-change">
+                    <div class="modal-title"><h2>Школьники с 1 по 9 класс<br><p>(Занятие 60 мин)</p></h2></div>
+                    <button data-modal-close-button class="close-button">&times;</button>
+                  </div>
+                  <div class="modal-body color-change">
+                    <div class="modal-text">
+                      <div class="format-option"><h2>Абонемент на 8 занятий (группа)</h2></div>
+                      <div class="price"><h2>5600₽</h2></div>
+                      <div class="format-option"><h2>Абонемент на 9 занятий (группа)</h2></div>
+                      <div class="price"><h2>6300₽</h2></div>
+                      <div class="format-option"><h2>Индивидуальное занятие</h2></div>
+                      <div class="price"><h2>1200₽</h2></div>
+                    </div>
+                    <a href="#map" type="button" class="modal-close cta text-change">Выбрать</a>
+                  </div>
+                </div>
+                <div id="overlayModal"></div>
+                <div class="service-item hover-change">
+                  <button class="pop-up-button" data-modal-adult-target="#modalAdult">Подготовка к ЕГЭ, взрослые</button>  
+                </div>
+                <div class="modal-adult" id="modalAdult">
+                  <div class="modal-adult-header color-change">
+                    <div class="modal-adult-title"><h2>Подготовка к ЕГЭ, взрослые<br><p>(Занятие 60 мин)</p></h2></div>
+                    <button data-modal-adult-close-button class="close-button">&times;</button>
+                  </div>
+                  <div class="modal-adult-body color-change">
+                    <div class="modal-adult-text">
+                      <div class="format-option"><h2>Абонемент на 8 занятий (группа)</h2></div>
+                      <div class="price"><h2>6400₽</h2></div>
+                      <div class="format-option"><h2>Абонемент на 9 занятий (группа)</h2></div>
+                      <div class="price"><h2>7200₽</h2></div>
+                      <div class="format-option"><h2>Индивидуальное занятие</h2></div>
+                      <div class="price"><h2>1400₽</h2></div>
+                    </div>
+                    <a href="#map" type="button" class="modal-adult-close cta text-change">Выбрать</a>
+                  </div>
+                </div>
+                <div id="overlayModalAdult"></div>
+            </div>
+        </div>
+    </section>
+    <!--End os Service section-->
+    <!--List of Languages Section-->
+    <div id="languages">
+      <div class="languages container">
+        <div class="languages-top">
+          <div class="languages-text">
+            <h1>Какие языки вы можете учить с нами?</h1>
+            <p>На данный момент в нашем языковом центре можно выучить английский, немецкий, китайский и русский языки. Наши педагоги настоящие профессионалы своего дела! Сочетают современные и классические методики, учитывая индивидуальные предпочтения каждого ученика.</p>
+          </div>
+        </div>
+        <div class="languages-bottom">
+            <div class="language-item color-change">
+              <div class="language-flag icon-change"><a href="#map" type="button" class="cta color-change"><img src="https://img.icons8.com/color/96/null/great-britain-circular.png"/></a></div>
+              <h2>Английский</h2></a>
+            </div>
+            <div class="language-item color-change">
+              <div class="language-flag icon-change"><a href="#map" type="button" class="cta color-change"><img src="https://img.icons8.com/color/96/null/china-circular.png"/></a></div>
+              <h2>Китайский</h2>
+            </div>
+            <div class="language-item color-change">
+              <div class="language-flag icon-change"><a href="#map" type="button" class="cta color-change">
+                <img src="https://img.icons8.com/color/96/null/germany-circular.png"/></a></div>
+              <h2>Немецкий</h2>
+            </div>
+            <div class="language-item color-change">
+              <div class="language-flag icon-change"><a href="#map" type="button" class="cta color-change"><img src="https://img.icons8.com/color/96/null/russian-federation-circular.png"/></a></div>
+              <h2>Русский</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of List of Languages Section-->
+    <!--Gallery-->
+    <div id="slides" class="slides container color-change">
+        <div class="slider-top">
+          <h1>Наш центр</h1>
+        </div>
+        <div class="slider">
+            <div
+                class="slide"
+                style="background-image: url('./img/teacher.jpg');"
+            >
+              <h3>Интерьер нашего центра</h3>
+            </div>
+            <div
+                class="slide"
+                style="
+                    background-image: url('./img/writing.jpg');
+                  "
+            >
+              <h3>Аудитория, где проходят занятия</h3>
+            </div>
+            <div
+                class="slide activate"
+                style="
+                    background-image: url('./img/class.jpg');
+                  "
+            >
+              <h3>Игровые занятия с дошколятами</h3>
+            </div>
+            <div
+                class="slide"
+                style="
+                    background-image: url('./img/student.jpg');
+                  "
+            >
+              <h3>Ульяна изучает иероглифы на интерактивной доске</h3>
+            </div>
+            <div
+                class="slide"
+                style="
+                    background-image: url('./img/project.jpg');
+                  "
+            >
+              <h3>Володя выполняет упражнение по изучению цветов на английском</h3>
+            </div>
+          </div>
+    </div>
+      <!--End of Gallery-->
+      <!--Reviews Section-->
+      <section id="reviews" class="reviews container">
+        <!--title-->
+        <div class="title">
+          <h1>Вот, что о нас говорят</h1>
+        </div>
+        <div class="rev">
+        <!--prev button-->
+          <div class="button-container">
+            <button class="prev-btn">
+               <i class="fas fa-chevron-left"></i>
+            </button>
+          </div>
+        <!--Review-->
+          <article class="review">
+            <h2 id="author">Мария</h2>
+            <p id="job" class="text-change">Мама Дани, 10 лет</p>
+            <p id="info">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, debitis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, debitis.
+            </p>
+          </article>
+        <!--next button-->
+          <div>
+            <div class="button-container">
+              <button class="next-btn">
+                <i class="fas fa-chevron-right"></i>
+             </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End of Reviews Section-->
+      <!--Map-->
+      <section class="container">
+        <div class="map" id="map">
+          <div class="contact-details">
+            <h3 class="text-change">Нас легко найти по адресу:</h3>
+            <p>улица 43-й Армии, 21, Подольск</p>
+            <h3 class="text-change">С нами легко связаться:</h3>
+            <p>+7 (916) 389-21-60</p>
+            <div class="social-item"><a href="https://vk.com/language_centre_fun"><img src="https://img.icons8.com/color/48/000000/vk-circled--v2.png" alt=""></a></div>
+          </div>
+          <div id="location">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A875ce0d17dce0ecc5f629085ea05212629c6ac1c340e28b9d03ca78e480ff77d&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+          </div>
+        </div>
+      </section>
+      <!--Footer-->
+      <section id="footer">
+        <div class="footer container color-change">
+          <div class="brand">
+            <div><a href="#"><img src="./img/logopencil.png" alt=""></a></div>
+            <div>
+              <div class="headertitle">
+                <h1>FUN</h1>
+                <p>Языковой центр</p></div>
+              </div>
+          </div>
+      </section>
+      <!--End of Footer-->
+<script src="nav.js"></script>
+<script src="main.js"></script>
+<script src="app.js"></script>
+<script src="reviews.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>
